@@ -1,80 +1,5 @@
-# Tugas Pertemuan 9 - Praktikum 5
-Pada pertemuan 9 praktikum 5 Dosen memberikan saya tugas untuk membuat program sederhana yang akan menampilkan daftar nilai mahasiswa. Berikut soal yang di berikan :
-![FOTO TUGAS PPT 5](ss/ssNILAI.jpg)
-
-<hr>
-nama : Abdul Aziz Anaoval <br>
-NIM : 312010049 <br>
-Kelas : TI.20.A.1 <br>
-<hr>
-
-## Penjelasan pertemmuan 9 P-5
-1. Penggunaan `if c.lower()` <br>
->`if c.lower()` fungsinya apabila user menginputkan denga huruf besar, maka otomatis akan menjadi huruf kecil sehingga kondisi yang digunakan tercapai. Contoh :
-
-``` python
-if c.lower() == `q`
-```
-2. Penggunaan `while True`
-
-> `while True` berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa type maka akan muncul error
-<br>
-
-3. Penggunaan `else`
-> Fungsi `else` jika tidak error dan type yang dimasukan sesuai maka proses `while True` <br>
-
-4. Penggunaan `valuveError`
-> Fungsinya apabila diinputkan bukan berupa type maka hasil nya error (`valueError`) <br>
-
-Berikut syntax/source code :
-
-```` python
-while (True):
-                        nama = input(" Nama : ")
-                        if nama == '':
-                            P(' Masukan dengan Nama Dengan Benar')
-                        else:
-                            break
-                    while (True):
-                        try:
-                            nim  = int(input(" NIM  : "))
-                            if nim == '':
-                                P(' Masukan Nim dengan Angka')
-                        except ValueError:
-                            P(' Masukan Nim dengan Angka')
-                        else:
-                            break
-                    while (True):
-                        try:
-                            tugas  = int(input(" TUGAS  : "))
-                            if tugas == '':
-                                P(' Masukan TUGAS dengan Angka')
-                        except ValueError:
-                            P(' Masukan TUGAS dengan Angka')
-                        else:
-                            break
-````
-5. Penggunaan `round` dan `float`
-> `round` digunakan untuk menentukan banyak nya angka dibelakang koma, sedangkan `foalt` digunakan untuk mengubah bilangan menjadi `foalt`(desimal) <br>
-
-Berikut syntax/source code :
-``` python
-akhir = round((float(tugas) * 0.3)+(float(uts) * 0.35)+(float(uas) * 0.35),2)
-        i.write('\nNama : '+nama+'|Nim : '+str(nim)+'|Tugas : '+str(tugas)+'|UTS : '+str(uts)+'|UAS : '+str(uas)+"|Akhir : "+str(akhir)+'\n')
-        i.close()
-```
-6. penggunaan `Database.txt`
-> Berguna untuk menyimpan data dari inputan.
-<br>
-![database.txt](ss/nilai%20data%20base.jpg)
->
-><br>
-
-## Berikut Source Code P-5
-
-```` python
-#NAMA : Abdul Aziz Anaoval
-#NIM : 312010049
+#NAMA : Prananda aditya
+#NIM : 312010130
 #KELAS : TI.20.A.1
 
 P = print
@@ -268,6 +193,3 @@ while True:
         i.close()
     else:
         P("Silahkan pilih menu yang tersedia...")
-````
->## Hasil Dari Source Code Diatas : <br>
->[HASIL RUN](ss/nilai%20ulangan%20ppt5.jpg)
