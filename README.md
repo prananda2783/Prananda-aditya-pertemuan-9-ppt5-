@@ -3,8 +3,8 @@ Pada pertemuan 9 praktikum 5 Dosen memberikan saya tugas untuk membuat program s
 ![FOTO TUGAS PPT 5](ss/ssNILAI.jpg)
 
 <hr>
-nama : Abdul Aziz Anaoval <br>
-NIM : 312010049 <br>
+nama : Prananda aditya <br>
+NIM : 312010130 <br>
 Kelas : TI.20.A.1 <br>
 <hr>
 
@@ -73,8 +73,8 @@ akhir = round((float(tugas) * 0.3)+(float(uts) * 0.35)+(float(uas) * 0.35),2)
 ## Berikut Source Code P-5
 
 ```` python
-#NAMA : Abdul Aziz Anaoval
-#NIM : 312010049
+#NAMA : Prananda aditya
+#NIM : 312010130
 #KELAS : TI.20.A.1
 
 P = print
